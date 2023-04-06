@@ -9,6 +9,7 @@ import icon4 from "../../assets/imgs/icon/4.png"
 import icon5 from "../../assets/imgs/icon/5.png"
 
 
+
 function MasterSection() {
     return (
         <section className="solution__area">

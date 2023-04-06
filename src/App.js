@@ -12,6 +12,8 @@ import 'aos/dist/aos.css';
 import './App.css';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
+import Router from './Router';
+import { BrowserRouter } from 'react-router-dom';
 
 AOS.init({
   delay: 200,
@@ -20,11 +22,13 @@ AOS.init({
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <MainPage />
-      <Footer />
-    </div>
+    <>
+      <BrowserRouter>
+        <Header />
+        <Router />
+        <Footer />
+      </BrowserRouter>
+    </>
   );
 }
 

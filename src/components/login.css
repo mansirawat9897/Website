@@ -65,3 +65,27 @@ h1,h2,h3,h4,h5,h6,label,span {
 .forgot-password a {
   color: #167bff;
 }
+
+
+.modal-header {
+  border-bottom: 0px;
+}
+.modal-body input{
+  color: #bcbec2;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 1rem;
+    background: #ffffff;
+}
+.modal-body button{
+  border-radius: 15px;
+    padding: 1rem;
+}
+.modal-body a{
+  color: #008cc5;
+ font-weight: 600;
+}
+.modal-body a:hover{
+ color: #4f4e4e;
+ font-weight: 600;
+}

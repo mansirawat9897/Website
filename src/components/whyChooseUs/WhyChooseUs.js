@@ -2,11 +2,15 @@ import React from 'react'
 import counterImg from '../../assets/imgs/thumb/counter-3.png'
 
 function WhyChooseUs() {
+
+   
   return (
     <section className="">
+    
             <div className="research__area wf_panel pt-150">
               <div className="container inner_content">
                 <div className="row">
+
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                     <div className="sec-title-wrapper">
                       <h2 className="sec-sub-title">why <br/>choose us</h2>
@@ -21,6 +25,7 @@ function WhyChooseUs() {
                       <li><a href="#">Instagram</a></li>
                     </ul>
                   </div>
+
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                     <div className="research__list">
                       <div className="research__item">
@@ -54,65 +59,66 @@ function WhyChooseUs() {
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
 
-            <div className="counter__area-3 wf_panel">
-              <div className="container">
-                <div className="row">
-                  <div className="col-xxl-12">
-                    <div className="sec-title-wrapper">
-                      <h2 className="sec-sub-title">Why <br/>Choose Us</h2>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                    <div className="counter__wrapper-3">
-                      <div className="counter__item-3">
-                        <h2 className="counter__number">25k</h2>
-                        <p>Project <br/>completed</p>
-                      </div>
-                      <div className="counter__item-3">
-                        <h2 className="counter__number">8k</h2>
-                        <p>Happy <br/>customers</p>
-                      </div>
-                      <div className="counter__item-3">
-                        <h2 className="counter__number">15</h2>
-                        <p>Years <br/>experiences</p>
-                      </div>
-                      <div className="counter__item-3">
-                        <h2 className="counter__number">98</h2>
-                        <p>Awards <br/>achievement</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
-                    <div className="counter__img-3">
-                      <img src={counterImg} alt="Counter Image"/>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
+                
+                  <div className="counter__area-3 wf_panel">
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-xxl-12">
+                          <div className="sec-title-wrapper">
+                            <h2 className="sec-sub-title">Why <br/>Choose Us</h2>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                          <div className="counter__wrapper-3">
+                            <div className="counter__item-3">
+                              <h2 className="counter__number">25k</h2>
+                              <p>Project <br/>completed</p>
+                            </div>
+                            <div className="counter__item-3">
+                              <h2 className="counter__number">8k</h2>
+                              <p>Happy <br/>customers</p>
+                            </div>
+                            <div className="counter__item-3">
+                              <h2 className="counter__number">15</h2>
+                              <p>Years <br/>experiences</p>
+                            </div>
+                            <div className="counter__item-3">
+                              <h2 className="counter__number">98</h2>
+                              <p>Awards <br/>achievement</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+                          <div className="counter__img-3">
+                            <img src={counterImg} alt="Counter Image"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-            <div className="cta__area-3 wf_panel">
-              <div className="container pt-150 pb-150">
-                <div className="row">
-                  <div className="col-xxl-12">
-                    <div className="cta__content-3">
-                      <p className="cta__sub-title-2">Have you project in mind?</p>
-                      <h2 className="cta__title-2">Let’s make something great together!</h2>
-                      <div className="btn_wrapper">
-                        <a href="contact.html" className="wc-btn-black btn-hover btn-item"><span></span>Contact <br/>with
-                          us <i className="fa-solid fa-arrow-right"></i></a>
+                  <div className="cta__area-3 wf_panel">
+                    <div className="container pt-150 pb-150">
+                      <div className="row">
+                        <div className="col-xxl-12">
+                          <div className="cta__content-3">
+                            <p className="cta__sub-title-2">Have you project in mind?</p>
+                            <h2 className="cta__title-2">Let’s make something great together!</h2>
+                            <div className="btn_wrapper">
+                              <a href="contact.html" className="wc-btn-black btn-hover btn-item"><span></span>Contact <br/>with
+                                us <i className="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
 
         </section>
   )

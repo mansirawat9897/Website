@@ -3,33 +3,40 @@ import about from '../../assets/imgs/about/3/1.jpg'
 export default function About() {
     return (
         <section className="about__area-3">
-            <div className="container pt-140 pb-110" id="about">
+            <div className="container pt-120 pb-110" id="about">
                 <div className="row">
                     <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                        <div className="about__img-3" data-aos="fade-right" data-aos-duration="3000">
+                        <div className="" data-aos="fade-right" data-aos-duration="3000">
                             <img src={about} alt="About Thumbnail" />
                         </div>
                     </div>
                     <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                         <div className="sec-title-wrapper">
-                            <h2 className="sec-sub-title title-anim" data-aos="fade-up" data-aos-duration="1000">   Great business plan, check.
+                            <h2  data-aos="fade-up" data-aos-duration="1000"> Great business plan, check.
                                 Financial Planning, done.</h2>
-                            <h3 className="sec-title title-anim" data-aos="fade-up" data-aos-duration="2500"></h3>Getting online and making your presence, uh-oh got a problem. Worry not, because this is where you rest and we work. Creating an online presence, going toe-to-toe with big name on E commerce platforms, generating unique content, getting followers on social media and much more.
-                            <div className="col col-md-12">
+                            <p data-aos="fade-up" data-aos-duration="2500">Getting online and making your presence, uh-oh got a problem. Worry not, because this is where you rest and we work. Creating an online presence, going toe-to-toe with big name on E commerce platforms, generating unique content, getting followers on social media and much more.
+                            </p>
+                            <div className=" col-md-12 mt-5">
                                 <ul>
-                                    <li>Focus on your core business and let us handle these side tasks for you.</li>
-                                    <li>One stop solution for all Ecommerce and Digital presence matters.</li>
+                                    <li>1. Focus on your core business and let us handle these side tasks for you.</li>
+                                    <li>2. One stop solution for all Ecommerce and Digital presence matters.</li>
                                 </ul>
                             </div>
                         </div>
 
                     </div>
 
+
+                </div>
+                <div className="row">
                     <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                         <div className="sec-title-wrapper">
                             <h2 className="sec-sub-title title-anim" data-aos="fade-up" data-aos-duration="1000">Why Choose Us</h2>
                             <h3 className="sec-title title-anim" data-aos="fade-up" data-aos-duration="2500">We are leading digital marketing agency.</h3>
                         </div>
+
+                    </div>
+                    <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                         <div className="sec-text-wrapper">
                             <div className="sec-text text-anim" data-aos="zoom-in-up" data-aos-duration="3000">
                                 <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
@@ -47,9 +54,9 @@ export default function About() {
                                                 <h6>We ensure you get the bet work for reasonable price. For every penny you put at stake, we ensure you more than that you will take.</h6>
                                                 <p>We jump through hoops not for us but for YOU. We increase your investments and reduce your stress. More money we pump, the more we press.</p>
                                                 {/* <div className="btn_wrapper">
-                                                <a className="wc-btn-light btn-hover btn-item" href="about.html"><span></span> Explore Us <i
-                                                    className="fa-solid fa-arrow-right"></i></a>
-                                            </div>                                        */}
+                                <a className="wc-btn-light btn-hover btn-item" href="about.html"><span></span> Explore Us <i
+                                    className="fa-solid fa-arrow-right"></i></a>
+                            </div>                                        */}
                                             </div>
                                         </div>
                                         <div className="carousel-item">
@@ -58,9 +65,9 @@ export default function About() {
                                                 <h6>We always take those extra steps to let you setup your business smoothly and run it hassle-free. </h6>
                                                 <p>Unlike others, we do not leave you mid journey. We go the extra mile with a smile. Helping you out with tasks not necessarily part of our work, but essential for you. </p>
                                                 {/* <div className="btn_wrapper">
-                                                <a className="wc-btn-light btn-hover btn-item" href="about.html"><span></span> Explore Us <i
-                                                    className="fa-solid fa-arrow-right"></i></a>
-                                            </div>                                         */}
+                                <a className="wc-btn-light btn-hover btn-item" href="about.html"><span></span> Explore Us <i
+                                    className="fa-solid fa-arrow-right"></i></a>
+                            </div>                                         */}
                                             </div>
                                         </div>
                                         <div className="carousel-item">
@@ -69,9 +76,9 @@ export default function About() {
                                                 <h6>You have our word and experienced members, working to deliver our promise on time with no scope of errors and complaints.</h6>
                                                 <p>Worried about the services, tensed about the procedure? Do not be. We commit ourselves completely to the cause. Expect complete transparency with unfaltering dedication.</p>
                                                 {/* <div className="btn_wrapper">
-                                                <a className="wc-btn-light btn-hover btn-item" href="about.html"><span></span> Explore Us <i
-                                                    className="fa-solid fa-arrow-right"></i></a>
-                                            </div>                                        */}
+                                <a className="wc-btn-light btn-hover btn-item" href="about.html"><span></span> Explore Us <i
+                                    className="fa-solid fa-arrow-right"></i></a>
+                            </div>                                        */}
                                             </div>
                                         </div>
                                         <div className="carousel-item">
