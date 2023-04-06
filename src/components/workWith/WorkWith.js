@@ -6,7 +6,7 @@ export default function WorkWith() {
     <section className="brand__area">
       <div className="container  pb-140" >
         <div className="row">
-          <div className="col-xxl-6">
+          <div className="col-xxl-12">
             <h1 className='w-100 text-center'>Our Services</h1>
             <div className="brand__list-3 mt-5">
               <div className="brand__item-2 fade_bottom" data-aos="fade-up" data-aos-duration="500">
