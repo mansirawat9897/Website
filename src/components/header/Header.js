@@ -3,6 +3,7 @@ import "./header.css"
 import AppLogo from '../../assets/imgs/logo/AppLogo.png'
 import { Link } from 'react-router-dom';
 import Login from '../Login';
+import Signup from '../Signup';
 
 
 function Header(props) {
@@ -36,7 +37,7 @@ function Header(props) {
                                     // <Link to='/contact' className="nav-link" >Contact</Link>
                                 }
                                 <button className="btn btn-outline-secondary me-4" data-bs-toggle="modal" data-bs-target="#Login">SignIn</button>
-                                <button className="btn btn-outline-secondary me-5" data-bs-toggle="modal" data-bs-target="#exampleModal">SignUn</button>
+                                <button className="btn btn-outline-secondary me-5" data-bs-toggle="modal" data-bs-target="#Signup">SignUn</button>
 
                             </div>
 
@@ -45,6 +46,7 @@ function Header(props) {
                 </div>
             </div>
             <Login />
+            <Signup />
         </>
     )
 
