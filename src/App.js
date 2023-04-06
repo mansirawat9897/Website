@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <Header />
       <MainPage />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

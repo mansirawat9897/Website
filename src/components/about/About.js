@@ -10,6 +10,20 @@ export default function About() {
                             <img src={about} alt="About Thumbnail" />
                         </div>
                     </div>
+                    <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                        <div className="sec-title-wrapper">
+                            <h2 className="sec-sub-title title-anim" data-aos="fade-up" data-aos-duration="1000">   Great business plan, check.
+                                Financial Planning, done.</h2>
+                            <h3 className="sec-title title-anim" data-aos="fade-up" data-aos-duration="2500"></h3>Getting online and making your presence, uh-oh got a problem. Worry not, because this is where you rest and we work. Creating an online presence, going toe-to-toe with big name on E commerce platforms, generating unique content, getting followers on social media and much more.
+                            <div className="col col-md-12">
+                                <ul>
+                                    <li>Focus on your core business and let us handle these side tasks for you.</li>
+                                    <li>One stop solution for all Ecommerce and Digital presence matters.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
 
                     <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                         <div className="sec-title-wrapper">

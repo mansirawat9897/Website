@@ -10,7 +10,7 @@ function WhyChooseUs() {
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                     <div className="sec-title-wrapper">
                       <h2 className="sec-sub-title">why <br/>choose us</h2>
-                      <h3 className="sec-title">Keword,Research Strategy, Survey, & Analytics</h3>
+                      <h3 className="sec-title">Keyword,Research Strategy, Survey, & Analytics</h3>
                       <p>Attention, we take out our round glasses and our sweater with elbow patches to go back to the
                         origins of the user experience: the first mention of the user and its importance was born in the
                       </p>
